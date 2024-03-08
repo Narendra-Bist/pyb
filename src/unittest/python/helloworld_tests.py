@@ -1,6 +1,6 @@
 from mockito import mock, verify
 import unittest
-
+    
 from helloworld import helloworld
 
 class HelloWorldTest(unittest.TestCase):
@@ -9,4 +9,4 @@ class HelloWorldTest(unittest.TestCase):
 
         helloworld(out)
 
-        verify(out).write("Hello world of Python\n")
+        verify(out).write("Hello world of Python with some chamges\n")
